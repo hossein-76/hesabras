@@ -1,0 +1,1 @@
+from .json404_middleware import JSON404Middleware

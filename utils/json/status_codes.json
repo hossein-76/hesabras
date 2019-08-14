@@ -1,0 +1,242 @@
+{
+  "BAD_TYPE": {
+    "message_en": "{field} does not valid in parameters",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} does not valid in your parameters. please check your inputs.",
+    "status_code": 400,
+    "type": "BAD_TYPE"
+  },
+  "BAD_TYPE_FOR_SCHEMA": {
+    "message_en": "{field} does not valid in parameters",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} does not valid in your parameters. please check your inputs.",
+    "status_code": 400,
+    "type": "BAD_TYPE_FOR_SCHEMA"
+  },
+  "MAX_LENGTH": {
+    "message_en": "Maximum length exceeded for field {field}",
+    "message_fa": "حداکثر طول مجاز رعایت نشده است",
+    "field": "{field}",
+    "explanation": "Maximum length for field {field} has not been regarded. please check your inputs.",
+    "status_code": 400,
+    "type": "MAX_LENGTH"
+  },
+  "MIN_LENGTH": {
+    "message_en": "Minimum length exceeded for field {field}",
+    "message_fa": "حداقل طول مجاز رعایت نشده است",
+    "field": "{field}",
+    "explanation": "Minimum length for field {field} has not been regarded. please check your inputs.",
+    "status_code": 400,
+    "type": "MIN_LENGTH"
+  },
+  "MIN_VALUE": {
+    "message_en": "Minimum value exceeded for field {field}",
+    "message_fa": "حداقل مقدار مجاز رعایت نشده است",
+    "field": "{field}",
+    "explanation": "Minimum value for field {field} has not been regarded. please check your inputs.",
+    "status_code": 400,
+    "type": "MIN_VALUE"
+  },
+  "MAX_VALUE": {
+    "message_en": "Maximum value exceeded for field {field}",
+    "message_fa": "حداکثر مقدار مجاز رعایت نشده است",
+    "field": "{field}",
+    "explanation": "Maximum value for field {field} has not been regarded. please check your inputs.",
+    "status_code": 400,
+    "type": "MAX_VALUE"
+  },
+  "EXCLUDES_FIELD": {
+    "message_en": "{field} does not excluded",
+    "message_fa": "اطلاعات وارد شده ناقص میباشد",
+    "field": "{field}",
+    "explanation": "{field} does not exist in your parameters. please check your inputs.",
+    "status_code": 400,
+    "type": "EXCLUDES_FIELD"
+  },
+  "REQUIRED_FIELD": {
+    "message_en": "{field} does not exist in parameters",
+    "message_fa": "اطلاعات وارد شده ناقص میباشد",
+    "field": "{field}",
+    "explanation": "{field} does not exist in your parameters. please check your inputs.",
+    "status_code": 400,
+    "type": "REQUIRED_FIELD"
+  },
+  "DEPENDENCIES_FIELD": {
+    "message_en": "Dependency has not been regarded In field {field} ",
+    "message_fa": "عدم رعایت پیش نیازی در اطلاعات وارد شده.",
+    "field": "{field}",
+    "explanation": "{field} has not been regarded in your parameters. please check your inputs.",
+    "status_code": 400,
+    "type": "DEPENDENCIES_FIELD"
+  },
+  "DEPENDENCIES_FIELD_VALUE": {
+    "message_en": "Dependency has not been regarded In field {field} ",
+    "message_fa": "عدم رعایت پیش نیازی در اطلاعات وارد شده.",
+    "field": "{field}",
+    "explanation": "{field} has not been regarded your parameters. please check your inputs.",
+    "status_code": 400,
+    "type": "DEPENDENCIES_FIELD_VALUE"
+  },
+  "EMPTY_NOT_ALLOWED": {
+    "message_en": "{field} should not be empty ",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} should not be empty. please check your inputs.",
+    "status_code": 400,
+    "type": "EMPTY_NOT_ALLOWED"
+  },
+  "NOT_NULLABLE": {
+    "message_en": "{field} should not be null",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} should not be null. please check your inputs.",
+    "status_code": 400,
+    "type": "NOT_NULLABLE"
+  },
+  "ITEMS_LENGTH": {
+    "message_en": "Item length has not been regarded in field {field}",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "Item length has not been regarded in field {field}. please check your inputs.",
+    "status_code": 400,
+    "type": "ITEMS_LENGTH"
+  },
+  "REGEX_MISMATCH": {
+    "message_en": "regex mismatch for field {field}",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "regex mismatch for field {field}. please check your inputs.",
+    "status_code": 400,
+    "type": "REGEX_MISMATCH"
+  },
+  "UNALLOWED_VALUE": {
+    "message_en": "value {value} does not allowed in field {field}",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "value {value} does not allowed in field {field}. please check your inputs.",
+    "status_code": 400,
+    "type": "UNALLOWED_VALUE"
+  },
+  "UNALLOWED_VALUES": {
+    "message_en": "value {value} does not allowed in field {field}",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "value {value} does not allowed in field {field}. please check your inputs.",
+    "status_code": 400,
+    "type": "UNALLOWED_VALUES"
+  },
+  "FORBIDDEN_VALUE": {
+    "message_en": "Forbidden Value for field {field}",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "Forbidden Value for field {field}. please check your inputs.",
+    "status_code": 400,
+    "type": "FORBIDDEN_VALUE"
+  },
+  "FORBIDDEN_VALUES": {
+    "message_en": "Forbidden Value for field {field}",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "Forbidden Value for field {field}. please check your inputs.",
+    "status_code": 400,
+    "type": "FORBIDDEN_VALUES"
+  },
+  "COERCION_FAILED": {
+    "message_en": "{field} coercion failed",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} coercion failed . please check your inputs.",
+    "status_code": 400,
+    "type": "COERCION_FAILED"
+  },
+  "RENAMING_FAILED": {
+    "message_en": "{field} renaming failed",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} renaming failed. please check your inputs.",
+    "status_code": 400,
+    "type": "RENAMING_FAILED"
+  },
+  "READONLY_FIELD": {
+    "message_en": "{field} is readonly",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} is readonly. please check your inputs.",
+    "status_code": 400,
+    "type": "READONLY_FIELD"
+  },
+  "SETTING_DEFAULT_FAILED": {
+    "message_en": "Setting default failed in field {field}",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "Setting default failed in field {field}. please check your inputs.",
+    "status_code": 400,
+    "type": "SETTING_DEFAULT_FAILED"
+  },
+  "MAPPING_SCHEMA": {
+    "message_en": "{field} has sequence schema error bug",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} has sequence schema error bug. please check your inputs.",
+    "status_code": 400,
+    "type": "MAPPING_SCHEMA"
+  },
+  "SEQUENCE_SCHEMA": {
+    "message_en": "{field} has sequence schema error bug",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} has sequence schema error bug. please check your inputs.",
+    "status_code": 400,
+    "type": "SEQUENCE_SCHEMA"
+  },
+  "KEYSCHEMA": {
+    "message_en": "{field} has key schema error bug",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} has key schema error bug. please check your inputs.",
+    "status_code": 400,
+    "type": "KEYSCHEMA"
+  },
+  "VALUESCHEMA": {
+    "message_en": "{field} has value schema error bug",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} has value schema error bug. please check your inputs.",
+    "status_code": 400,
+    "type": "VALUESCHEMA"
+  },
+  "BAD_ITEMS": {
+    "message_en": "{field} has bad items in parameters",
+    "message_fa": "اطلاعات وارد شده نادرست میباشد",
+    "field": "{field}",
+    "explanation": "{field} has bad items in parameters. please check your inputs.",
+    "status_code": 400,
+    "type": "BAD_ITEMS"
+  },
+  "NOT_FOUND": {
+    "message_en": "not found",
+    "message_fa": "نتیجه ای یافت نشد",
+    "field": "{field}",
+    "explanation": "not found",
+    "status_code": 404,
+    "type": "NOT_FOUND"
+  },
+  "FORBIDDEN": {
+    "message_en": "Forbidden",
+    "message_fa": "دسترسی غیر مجاز",
+    "field": "{field}",
+    "explanation": "Forbidden",
+    "status_code": 403,
+    "type": "FORBIDDEN"
+  },
+  "UNAUTHORIZED": {
+    "message_en": "UN AUTHORIZED",
+    "message_fa": "اجازه صادر نشد",
+    "field": "{field}",
+    "explanation": "UN AUTHORIZED",
+    "status_code": 401,
+    "type": "UNAUTHORIZED"
+  }
+}
